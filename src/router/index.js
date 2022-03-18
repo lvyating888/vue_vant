@@ -1,6 +1,6 @@
 import { createRouter,createWebHistory } from 'vue-router';
 import home from '../view/home';
-import about from '../view/about';
+import page1 from '../view/page1';
 const routes=[
     {
         path:'/',
@@ -8,8 +8,8 @@ const routes=[
         component:home,
         children:[
             {
-                path: '',
-                component: about
+                path: 'page1',
+                component: page1
             },
             {
                 path:'page2',

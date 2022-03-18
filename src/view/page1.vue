@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="http://wechat.mp12345.com/wechat/subscribe/assets/images/search_banner.jpg" alt="" class="banner">
     <van-button plain hairline type="primary">按钮1</van-button>
   </div>
 </template>
@@ -31,3 +32,8 @@
   }
 
 </script>
+<style>
+ .banner{
+   width: 750px;
+ }
+</style>
