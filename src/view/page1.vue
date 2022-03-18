@@ -13,7 +13,7 @@
           data:{}
         }
       },
-     methods:{
+    methods:{
         getTest(){
           axios.GET('/subscribe/showBuyerList.json',{pageNumber:1}
           ).then((res)=>{

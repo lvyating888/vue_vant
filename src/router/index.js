@@ -6,6 +6,7 @@ const routes=[
         path:'/',
         name:'home',
         component:home,
+        redirect:'/page1',
         children:[
             {
                 path: 'page1',
