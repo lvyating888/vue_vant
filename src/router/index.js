@@ -3,10 +3,15 @@ import home from '../view/home';
 import page1 from '../view/page1';
 const routes=[
     {
+        path: '/login',
+        name:'login',
+        component:()=>import('../view/login')
+    },
+    {
         path:'/',
         name:'home',
         component:home,
-        redirect:'/page1',
+        redirect:'/page1',//别名
         children:[
             {
                 path: 'page1',

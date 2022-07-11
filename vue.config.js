@@ -6,7 +6,7 @@ module.exports = defineConfig({
      host:'x.mp12345.com',
      port:8888,
       proxy:{
-       '/subscribe':{
+       '.json$':{
          target:'http://wechat.mp12345.com',
          changeOrigin:true
        }
